@@ -1,0 +1,104 @@
+[
+    {
+        "trip_id": "trip_1",
+        "timestamp": "2024-01-01T10:00:00Z",
+        "event_type": "TRIP_STATUS",
+        "status": "IN_PROGRESS"
+    },
+    {
+        "trip_id": "trip_1",
+        "timestamp": "2024-01-01T10:00:01Z",
+        "event_type": "GPS_UPDATE",
+        "location": {
+            "lat": 12.97,
+            "lng": 77.59
+        }
+    },
+    {
+        "trip_id": "trip_1",
+        "timestamp": "2024-01-01T10:00:02Z",
+        "event_type": "TRIP_PROGRESS",
+        "progress": 20
+    },
+    {
+        "trip_id": "trip_2",
+        "timestamp": "2024-01-01T10:00:03Z",
+        "event_type": "TRIP_STATUS",
+        "status": "IN_PROGRESS"
+    },
+    {
+        "trip_id": "trip_2",
+        "timestamp": "2024-01-01T10:00:04Z",
+        "event_type": "FUEL_UPDATE",
+        "fuel": 80
+    },
+    {
+        "trip_id": "trip_1",
+        "timestamp": "2024-01-01T10:00:05Z",
+        "event_type": "ALERT",
+        "message": "Low fuel"
+    },
+    {
+        "trip_id": "trip_3",
+        "timestamp": "2024-01-01T10:00:06Z",
+        "event_type": "TRIP_STATUS",
+        "status": "IN_PROGRESS"
+    },
+    {
+        "trip_id": "trip_3",
+        "timestamp": "2024-01-01T10:00:07Z",
+        "event_type": "TRIP_PROGRESS",
+        "progress": 10
+    },
+    {
+        "trip_id": "trip_3",
+        "timestamp": "2024-01-01T10:00:08Z",
+        "event_type": "GPS_UPDATE",
+        "location": {
+            "lat": 28.61,
+            "lng": 77.20
+        }
+    },
+    {
+        "trip_id": "trip_2",
+        "timestamp": "2024-01-01T10:00:09Z",
+        "event_type": "TRIP_PROGRESS",
+        "progress": 45
+    },
+    {
+        "trip_id": "trip_2",
+        "timestamp": "2024-01-01T10:00:10Z",
+        "event_type": "ALERT",
+        "message": "Overspeed"
+    },
+    {
+        "trip_id": "trip_1",
+        "timestamp": "2024-01-01T10:00:11Z",
+        "event_type": "TRIP_PROGRESS",
+        "progress": 90
+    },
+    {
+        "trip_id": "trip_3",
+        "timestamp": "2024-01-01T10:00:12Z",
+        "event_type": "FUEL_UPDATE",
+        "fuel": 55
+    },
+    {
+        "trip_id": "trip_1",
+        "timestamp": "2024-01-01T10:00:13Z",
+        "event_type": "TRIP_STATUS",
+        "status": "COMPLETED"
+    },
+    {
+        "trip_id": "trip_2",
+        "timestamp": "2024-01-01T10:00:14Z",
+        "event_type": "TRIP_PROGRESS",
+        "progress": 100
+    },
+    {
+        "trip_id": "trip_2",
+        "timestamp": "2024-01-01T10:00:15Z",
+        "event_type": "TRIP_STATUS",
+        "status": "COMPLETED"
+    }
+]
