@@ -24,6 +24,9 @@ export const processEvent = (event, setTripState) => {
       case "TRIP_STATUS":
         updatedTrip.status = event.status;
         break;
+
+      default:
+        break;
     }
 
     return {
